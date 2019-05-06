@@ -100,7 +100,7 @@ class ServerGuard
             'method' => $this->app['request']->getMethod(),
             'uri' => $this->app['request']->getUri(),
             'content-type' => $this->app['request']->getContentType(),
-            'content' => $this->app['request']->getContent(),
+            'content' => app()->request->getRawBody(),
         ]);
 
         $response = $this->validate()->resolve();

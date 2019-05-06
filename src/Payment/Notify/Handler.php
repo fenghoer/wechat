@@ -132,7 +132,7 @@ abstract class Handler
         }
 
         try {
-            $message = XML::parse(strval($this->app['request']->getContent()));
+            $message = XML::parse(strval(app()->request->getRawBody()));
         } catch (\Throwable $e) {
             throw new Exception('Invalid request XML: '.$e->getMessage(), 400);
         }
