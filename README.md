@@ -14,12 +14,13 @@
 
 [![image](https://user-images.githubusercontent.com/1472352/56255430-6f2e3a80-60f7-11e9-870c-e5aaf73137db.png)](https://coding.net/?utm_source=easywechat)
 
-## Requirement
+## Requirement (本版本是为mixphp兼容而做)
 
 1. PHP >= 7.0
 2. **[Composer](https://getcomposer.org/)**
 3. openssl 拓展
 4. fileinfo 拓展（素材管理模块需要用到）
+5. MixPHP ~2.0.x (本版本是为mixphp订制兼容而做) **[MixPHP](https://github.com/mix-php/mix)**
 
 ## Installation
 
